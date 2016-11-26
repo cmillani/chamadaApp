@@ -1,0 +1,6 @@
+framework module Pods_ChamadaServerUITests {
+  umbrella header "Pods-ChamadaServerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

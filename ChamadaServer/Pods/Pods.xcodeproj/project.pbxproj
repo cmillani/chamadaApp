@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2994CA0C4D30FB95355C10EFA2138A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */; };
+		0E7D013E89A7160D854107D3702BB9AA /* Pods-ChamadaServerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABFBB5E0A04E7BA842DAA615988C8BE /* Pods-ChamadaServerTests-dummy.m */; };
+		19F8E115418CFD188927FE3CC96D565F /* Pods-ChamadaServerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B74D4036C74F6F8CC3E145A99F63B5 /* Pods-ChamadaServerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350A07B7A89CFC33CFA3C2C17E90CE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		51AA44846423B1389318EFD8179CB4D8 /* Pods-ChamadaServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D54C4F4DFF4613F1DE7E1A010E331817 /* Pods-ChamadaServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78673E0A090CAA106F510D94186B39A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5F2AEA752F968FC41A3D2768C5A9D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B72FCB8330BCC74ED17C287842DDB2D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		BA7343E5E2CE04E0F8A83B3377B04829 /* Pods-ChamadaServerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68832CEB36547821E1ABC8125700F882 /* Pods-ChamadaServerUITests-dummy.m */; };
+		BBAE910156F232553A74CB0B2A9CE94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		C9A54691B68124C7484EF3919A4EB2F7 /* Pods-ChamadaServerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EE04F8D3107747FA8F98C6F7FC2ED5 /* Pods-ChamadaServerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6E9D1A10E826FF70316C6AD824D827 /* Pods-ChamadaServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B5F9EA20637C80D0C24461EB555195 /* Pods-ChamadaServer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81196B238C017CF2B70B749A719E8A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027E0A0E99F7356618D9FEB517A39463 /* Pods-ChamadaServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChamadaServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		04B74D4036C74F6F8CC3E145A99F63B5 /* Pods-ChamadaServerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChamadaServerUITests-umbrella.h"; sourceTree = "<group>"; };
+		098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		13B5F9EA20637C80D0C24461EB555195 /* Pods-ChamadaServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChamadaServer-dummy.m"; sourceTree = "<group>"; };
+		1CDCE7B5C140876BAD17E9DEDB59780C /* Pods-ChamadaServerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChamadaServerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		2BCED9C5F7A256998D8F3AD464304297 /* Pods_ChamadaServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChamadaServer.framework; path = "Pods-ChamadaServer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		3BB555C3791A351D819CB352FA13F080 /* Pods-ChamadaServer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChamadaServer-resources.sh"; sourceTree = "<group>"; };
+		40F6EDA54F14B010618F1E345F23A57E /* Pods-ChamadaServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChamadaServer.release.xcconfig"; sourceTree = "<group>"; };
+		45830DD8F4317F66C7E187C00FC29EA0 /* Pods-ChamadaServerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChamadaServerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		4FBD93A00FC506CD37B905D26D11BD7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CF26728105AFF265FA971E5FC7CB1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68832CEB36547821E1ABC8125700F882 /* Pods-ChamadaServerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChamadaServerUITests-dummy.m"; sourceTree = "<group>"; };
+		6CA0799E3E1C60559298BCF7F2C27CE9 /* Pods-ChamadaServerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChamadaServerUITests-resources.sh"; sourceTree = "<group>"; };
+		75F9206B99E5B5423D6B61D755C011CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		76BEC07F30A931AC24DE6FC6F8AD13C9 /* Pods-ChamadaServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChamadaServer.modulemap"; sourceTree = "<group>"; };
+		779031145FF8888792CBDF9212243F5E /* Pods-ChamadaServerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChamadaServerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77C317DAC314138F90D50B75570A6CCA /* Pods-ChamadaServerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChamadaServerTests.modulemap"; sourceTree = "<group>"; };
+		796A9A208C8C4E8E0CF22C9CA736B4C8 /* Pods-ChamadaServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChamadaServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7984E76D081B5022878FD49AAB64BF95 /* Pods_ChamadaServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChamadaServerTests.framework; path = "Pods-ChamadaServerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823C8DF03F7170F2BE43B27D155B5188 /* Pods-ChamadaServerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChamadaServerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83EE04F8D3107747FA8F98C6F7FC2ED5 /* Pods-ChamadaServerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChamadaServerTests-umbrella.h"; sourceTree = "<group>"; };
+		84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		86340A99F20BEC0D9E6F18F9080B8720 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		8897EF90B2D55946A61AD5A10C38B75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		9027BEC606A2756A165C2F853FA586A4 /* Pods-ChamadaServerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChamadaServerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C86C980628EA904D0C78EFB658A768 /* Pods-ChamadaServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChamadaServer.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABFBB5E0A04E7BA842DAA615988C8BE /* Pods-ChamadaServerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChamadaServerTests-dummy.m"; sourceTree = "<group>"; };
+		A1EEDE518CC2A37AC5426D4312CC6040 /* Pods_ChamadaServerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChamadaServerUITests.framework; path = "Pods-ChamadaServerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D7EB42C9DBC12508E66E04338B197C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6A9F1C7572491E4326BC184DDCA7CC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0428789E7690B5BE9E164762F3A60EC /* Pods-ChamadaServer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChamadaServer-frameworks.sh"; sourceTree = "<group>"; };
+		B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB3B757969A1AE88D0AE565A95D53164 /* Pods-ChamadaServer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChamadaServer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C26D43A2E52E203F46FA367684204D5B /* Pods-ChamadaServerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChamadaServerUITests.modulemap"; sourceTree = "<group>"; };
+		D54C4F4DFF4613F1DE7E1A010E331817 /* Pods-ChamadaServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChamadaServer-umbrella.h"; sourceTree = "<group>"; };
+		D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		D909DF62D7774FF2F0DC34DF11780C9C /* Pods-ChamadaServer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChamadaServer-acknowledgements.plist"; sourceTree = "<group>"; };
+		E65E330921D283CF91034B4AEB29D0EE /* Pods-ChamadaServerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChamadaServerTests-resources.sh"; sourceTree = "<group>"; };
+		E90829010D40733F65C42E8279DB48B8 /* Pods-ChamadaServerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChamadaServerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F581F181C0FD73373A4BE3389D037BD9 /* Pods-ChamadaServerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChamadaServerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F984B020BFF4C24D097E981AEB6E6B0B /* Pods-ChamadaServerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChamadaServerTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753E0DC56D4F1E83B42F41C3A9B5ED60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAE910156F232553A74CB0B2A9CE94A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B528107058B10447B071A6B90F400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F2AEA752F968FC41A3D2768C5A9D5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF10DD49042E8B6000A55CF32B4B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72FCB8330BCC74ED17C287842DDB2D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78673E0A090CAA106F510D94186B39A1 /* CFNetwork.framework in Frameworks */,
+				350A07B7A89CFC33CFA3C2C17E90CE61 /* Foundation.framework in Frameworks */,
+				0B2994CA0C4D30FB95355C10EFA2138A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093DA9552DF5757FD71BB4D9936A3CDF /* Pods-ChamadaServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7EB42C9DBC12508E66E04338B197C /* Info.plist */,
+				77C317DAC314138F90D50B75570A6CCA /* Pods-ChamadaServerTests.modulemap */,
+				F581F181C0FD73373A4BE3389D037BD9 /* Pods-ChamadaServerTests-acknowledgements.markdown */,
+				45830DD8F4317F66C7E187C00FC29EA0 /* Pods-ChamadaServerTests-acknowledgements.plist */,
+				9ABFBB5E0A04E7BA842DAA615988C8BE /* Pods-ChamadaServerTests-dummy.m */,
+				F984B020BFF4C24D097E981AEB6E6B0B /* Pods-ChamadaServerTests-frameworks.sh */,
+				E65E330921D283CF91034B4AEB29D0EE /* Pods-ChamadaServerTests-resources.sh */,
+				83EE04F8D3107747FA8F98C6F7FC2ED5 /* Pods-ChamadaServerTests-umbrella.h */,
+				027E0A0E99F7356618D9FEB517A39463 /* Pods-ChamadaServerTests.debug.xcconfig */,
+				796A9A208C8C4E8E0CF22C9CA736B4C8 /* Pods-ChamadaServerTests.release.xcconfig */,
+			);
+			name = "Pods-ChamadaServerTests";
+			path = "Target Support Files/Pods-ChamadaServerTests";
+			sourceTree = "<group>";
+		};
+		0CCEE6E9AD798819991E86BFAB1B09CB /* Pods-ChamadaServer */ = {
+			isa = PBXGroup;
+			children = (
+				65CF26728105AFF265FA971E5FC7CB1E /* Info.plist */,
+				76BEC07F30A931AC24DE6FC6F8AD13C9 /* Pods-ChamadaServer.modulemap */,
+				BB3B757969A1AE88D0AE565A95D53164 /* Pods-ChamadaServer-acknowledgements.markdown */,
+				D909DF62D7774FF2F0DC34DF11780C9C /* Pods-ChamadaServer-acknowledgements.plist */,
+				13B5F9EA20637C80D0C24461EB555195 /* Pods-ChamadaServer-dummy.m */,
+				B0428789E7690B5BE9E164762F3A60EC /* Pods-ChamadaServer-frameworks.sh */,
+				3BB555C3791A351D819CB352FA13F080 /* Pods-ChamadaServer-resources.sh */,
+				D54C4F4DFF4613F1DE7E1A010E331817 /* Pods-ChamadaServer-umbrella.h */,
+				96C86C980628EA904D0C78EFB658A768 /* Pods-ChamadaServer.debug.xcconfig */,
+				40F6EDA54F14B010618F1E345F23A57E /* Pods-ChamadaServer.release.xcconfig */,
+			);
+			name = "Pods-ChamadaServer";
+			path = "Target Support Files/Pods-ChamadaServer";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D6FF81BFBB1B195CCEBC8D335E2CF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3750E20CAB4987ACB8AB27B6C25C1D60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B16CCCC916CD9D13BBF53EA0C69C4615 /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C8102D996BD5012BD8F7DAA6E7244B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A9F1C7572491E4326BC184DDCA7CC /* CocoaAsyncSocket.framework */,
+				2BCED9C5F7A256998D8F3AD464304297 /* Pods_ChamadaServer.framework */,
+				7984E76D081B5022878FD49AAB64BF95 /* Pods_ChamadaServerTests.framework */,
+				A1EEDE518CC2A37AC5426D4312CC6040 /* Pods_ChamadaServerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A9D6FF81BFBB1B195CCEBC8D335E2CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */,
+				B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */,
+				BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		557C7CF8D4466D636F16673BAB31EEF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86340A99F20BEC0D9E6F18F9080B8720 /* CocoaAsyncSocket.modulemap */,
+				2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */,
+				8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */,
+				75F9206B99E5B5423D6B61D755C011CC /* CocoaAsyncSocket-prefix.pch */,
+				D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */,
+				8897EF90B2D55946A61AD5A10C38B75C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		6CD4EEF8D789CBDAD0BAD17FDA6EA4D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE6E9AD798819991E86BFAB1B09CB /* Pods-ChamadaServer */,
+				093DA9552DF5757FD71BB4D9936A3CDF /* Pods-ChamadaServerTests */,
+				A26814DDC61FF8FD7EDB75EF2153C6C4 /* Pods-ChamadaServerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				3750E20CAB4987ACB8AB27B6C25C1D60 /* Pods */,
+				3C8102D996BD5012BD8F7DAA6E7244B1 /* Products */,
+				6CD4EEF8D789CBDAD0BAD17FDA6EA4D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		982AE8715AD34D5D99A50B615809B1F1 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */,
+				1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */,
+				84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */,
+				098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		A26814DDC61FF8FD7EDB75EF2153C6C4 /* Pods-ChamadaServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FBD93A00FC506CD37B905D26D11BD7C /* Info.plist */,
+				C26D43A2E52E203F46FA367684204D5B /* Pods-ChamadaServerUITests.modulemap */,
+				779031145FF8888792CBDF9212243F5E /* Pods-ChamadaServerUITests-acknowledgements.markdown */,
+				823C8DF03F7170F2BE43B27D155B5188 /* Pods-ChamadaServerUITests-acknowledgements.plist */,
+				68832CEB36547821E1ABC8125700F882 /* Pods-ChamadaServerUITests-dummy.m */,
+				9027BEC606A2756A165C2F853FA586A4 /* Pods-ChamadaServerUITests-frameworks.sh */,
+				6CA0799E3E1C60559298BCF7F2C27CE9 /* Pods-ChamadaServerUITests-resources.sh */,
+				04B74D4036C74F6F8CC3E145A99F63B5 /* Pods-ChamadaServerUITests-umbrella.h */,
+				1CDCE7B5C140876BAD17E9DEDB59780C /* Pods-ChamadaServerUITests.debug.xcconfig */,
+				E90829010D40733F65C42E8279DB48B8 /* Pods-ChamadaServerUITests.release.xcconfig */,
+			);
+			name = "Pods-ChamadaServerUITests";
+			path = "Target Support Files/Pods-ChamadaServerUITests";
+			sourceTree = "<group>";
+		};
+		B16CCCC916CD9D13BBF53EA0C69C4615 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				982AE8715AD34D5D99A50B615809B1F1 /* GCD */,
+				557C7CF8D4466D636F16673BAB31EEF1 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		066131069354C4CC132CAB645145E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */,
+				AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE702F1AE962493B3C893C457E677E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A54691B68124C7484EF3919A4EB2F7 /* Pods-ChamadaServerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8DE5B9AC58AD47A3667CE026871427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F8E115418CFD188927FE3CC96D565F /* Pods-ChamadaServerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A8D92AB38467D5B4CF751C01C8BEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AA44846423B1389318EFD8179CB4D8 /* Pods-ChamadaServer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				FD452A203117FF8DFA26B0711D439093 /* Sources */,
+				D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */,
+				066131069354C4CC132CAB645145E8F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = AB6A9F1C7572491E4326BC184DDCA7CC /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE5D50BD892607B86488CB7FE6F5B420 /* Pods-ChamadaServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5765272E4E6A7963D311949FBF7B12DD /* Build configuration list for PBXNativeTarget "Pods-ChamadaServer" */;
+			buildPhases = (
+				351E3CBEB272C74E7C6E8BCE17475F8D /* Sources */,
+				753E0DC56D4F1E83B42F41C3A9B5ED60 /* Frameworks */,
+				486A8D92AB38467D5B4CF751C01C8BEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7361BD53D2FB97F4FDF6A6941830B988 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChamadaServer";
+			productName = "Pods-ChamadaServer";
+			productReference = 2BCED9C5F7A256998D8F3AD464304297 /* Pods_ChamadaServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E52BF6323CDADE75737EB3E3FE7B8FE5 /* Pods-ChamadaServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75958A35B22F57B240DB67A8BE06580D /* Build configuration list for PBXNativeTarget "Pods-ChamadaServerUITests" */;
+			buildPhases = (
+				F714E46DE167ACD8252425EB1B7B6740 /* Sources */,
+				861B528107058B10447B071A6B90F400 /* Frameworks */,
+				3C8DE5B9AC58AD47A3667CE026871427 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChamadaServerUITests";
+			productName = "Pods-ChamadaServerUITests";
+			productReference = A1EEDE518CC2A37AC5426D4312CC6040 /* Pods_ChamadaServerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD268DE39124540BA72F3B52846A5A9B /* Pods-ChamadaServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6559DBD969E164291685C63D19B624F /* Build configuration list for PBXNativeTarget "Pods-ChamadaServerTests" */;
+			buildPhases = (
+				60DFBF66F0CF5487446B6889EBD18601 /* Sources */,
+				A2CF10DD49042E8B6000A55CF32B4B43 /* Frameworks */,
+				1EE702F1AE962493B3C893C457E677E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChamadaServerTests";
+			productName = "Pods-ChamadaServerTests";
+			productReference = 7984E76D081B5022878FD49AAB64BF95 /* Pods_ChamadaServerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3C8102D996BD5012BD8F7DAA6E7244B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
+				AE5D50BD892607B86488CB7FE6F5B420 /* Pods-ChamadaServer */,
+				FD268DE39124540BA72F3B52846A5A9B /* Pods-ChamadaServerTests */,
+				E52BF6323CDADE75737EB3E3FE7B8FE5 /* Pods-ChamadaServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351E3CBEB272C74E7C6E8BCE17475F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6E9D1A10E826FF70316C6AD824D827 /* Pods-ChamadaServer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DFBF66F0CF5487446B6889EBD18601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7D013E89A7160D854107D3702BB9AA /* Pods-ChamadaServerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F714E46DE167ACD8252425EB1B7B6740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7343E5E2CE04E0F8A83B3377B04829 /* Pods-ChamadaServerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
+				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
+				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7361BD53D2FB97F4FDF6A6941830B988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 81196B238C017CF2B70B749A719E8A77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3DDB38ABF14B3F291111BCAAE3B2C2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90829010D40733F65C42E8279DB48B8 /* Pods-ChamadaServerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChamadaServerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChamadaServerUITests/Pods-ChamadaServerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChamadaServerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63C0E9957EC1EEF5B4E9841281B2D8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C86C980628EA904D0C78EFB658A768 /* Pods-ChamadaServer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChamadaServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChamadaServer/Pods-ChamadaServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChamadaServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7389DCC7A730CEB77EF53651929E7A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		757750111ED88725A2D39D8D76BC65DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8198BBB9A2A6E0BE31D67AF18C4B201C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDCE7B5C140876BAD17E9DEDB59780C /* Pods-ChamadaServerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChamadaServerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChamadaServerUITests/Pods-ChamadaServerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChamadaServerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6A0875C76DBB0364872E918C36ADE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F6EDA54F14B010618F1E345F23A57E /* Pods-ChamadaServer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChamadaServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChamadaServer/Pods-ChamadaServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChamadaServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC66A706DB9B22129608C3818E60719F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796A9A208C8C4E8E0CF22C9CA736B4C8 /* Pods-ChamadaServerTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChamadaServerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChamadaServerTests/Pods-ChamadaServerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChamadaServerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF9C934512C1E119AF4FA10FF2FDC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027E0A0E99F7356618D9FEB517A39463 /* Pods-ChamadaServerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChamadaServerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChamadaServerTests/Pods-ChamadaServerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChamadaServerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5765272E4E6A7963D311949FBF7B12DD /* Build configuration list for PBXNativeTarget "Pods-ChamadaServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C0E9957EC1EEF5B4E9841281B2D8B6 /* Debug */,
+				D6A0875C76DBB0364872E918C36ADE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75958A35B22F57B240DB67A8BE06580D /* Build configuration list for PBXNativeTarget "Pods-ChamadaServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8198BBB9A2A6E0BE31D67AF18C4B201C /* Debug */,
+				3DDB38ABF14B3F291111BCAAE3B2C2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7389DCC7A730CEB77EF53651929E7A07 /* Debug */,
+				757750111ED88725A2D39D8D76BC65DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6559DBD969E164291685C63D19B624F /* Build configuration list for PBXNativeTarget "Pods-ChamadaServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF9C934512C1E119AF4FA10FF2FDC22 /* Debug */,
+				DC66A706DB9B22129608C3818E60719F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
