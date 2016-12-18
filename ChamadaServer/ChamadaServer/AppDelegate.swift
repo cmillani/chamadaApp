@@ -8,16 +8,25 @@
 
 import UIKit
 import CoreData
+import PushKit
+import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PKPushRegistryDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        application.registerForRemoteNotifications()
         // Override point for customization after application launch.
+        print("Initializing")
+        self.voipRegistration()
         return true
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("REMOTE NOTIFICATION!!!")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -42,6 +51,49 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
+    }
+    
+    func voipRegistration() {
+        let mainQueue = DispatchQueue.main
+        // Create a push registry object
+        let voipRegistry: PKPushRegistry = PKPushRegistry(queue: mainQueue)
+        // Set the registry's delegate to self
+        voipRegistry.delegate = self
+        // Set the push type to VoIP
+        voipRegistry.desiredPushTypes = [PKPushType.voIP]
+  
+//        let center  = UNUserNotificationCenter.current()
+//        center.delegate = self
+//        center.requestAuthorization(options: [.sound, .alert, .badge]) { (granted, error) in
+////            if error == nil{
+////                UIApplication.shared.registerForRemoteNotifications()
+////            }
+//        }
+        
+//        UIApplication.shared.registerUserNotificationSettings()
+//        let types: UIUserNotificationType = (UIUserNotificationType.Badge | UIUserNotificationType.Sound | UIUserNotificationType.Alert)
+//        let notificationSettings = UIUserNotificationSettings(forTypes:types, categories:nil)
+//        UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
+    }
+    
+    func pushRegistry(_ registry: PKPushRegistry, didUpdate credentials: PKPushCredentials, forType type: PKPushType) {
+        print("----(New Credential)")
+        print(credentials)
+        print(credentials.token)
+        let deviceToken = credentials.token
+        var token: String = ""
+        for i in 0..<deviceToken.count {
+            token += String(format: "%02.2hhx", deviceToken[i] as CVarArg)
+        }
+        
+        print(token)
+        print("----(New Credential End)")
+    }
+    
+    func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, forType type: PKPushType) {
+        print("----(New Message)")
+        print(payload)
+        print("----(New Message End)")
     }
 
     // MARK: - Core Data stack

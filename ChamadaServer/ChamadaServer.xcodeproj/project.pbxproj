@@ -15,6 +15,9 @@
 		070FC5CC1DE9F1DB008BDF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070FC5CA1DE9F1DB008BDF3A /* LaunchScreen.storyboard */; };
 		070FC5D71DE9F1DB008BDF3A /* ChamadaServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FC5D61DE9F1DB008BDF3A /* ChamadaServerTests.swift */; };
 		070FC5E21DE9F1DB008BDF3A /* ChamadaServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FC5E11DE9F1DB008BDF3A /* ChamadaServerUITests.swift */; };
+		074F52991E07026F0017B6AC /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074F52981E07026F0017B6AC /* PushKit.framework */; };
+		07782BF11DEDBA3900256B78 /* TCPBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07782BF01DEDBA3900256B78 /* TCPBO.swift */; };
+		078A8CC71DE9F28E0021D81D /* TCPMechanism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A8CC61DE9F28E0021D81D /* TCPMechanism.swift */; };
 		58F79A6119F46707D49FD744 /* Pods_ChamadaServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7ABF0E03F76CF574FC8 /* Pods_ChamadaServer.framework */; };
 		87E3517A2268BCF0B0B27917 /* Pods_ChamadaServerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDC16A2C0D1FD04394220A4 /* Pods_ChamadaServerUITests.framework */; };
 		F9C692944E261B9B4CC71907 /* Pods_ChamadaServerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAA1E942822ED8AFB85048D /* Pods_ChamadaServerTests.framework */; };
@@ -52,6 +55,10 @@
 		070FC5DD1DE9F1DB008BDF3A /* ChamadaServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChamadaServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		070FC5E11DE9F1DB008BDF3A /* ChamadaServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadaServerUITests.swift; sourceTree = "<group>"; };
 		070FC5E31DE9F1DB008BDF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074F52981E07026F0017B6AC /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		07782BF01DEDBA3900256B78 /* TCPBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPBO.swift; sourceTree = "<group>"; };
+		078A8CC61DE9F28E0021D81D /* TCPMechanism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPMechanism.swift; sourceTree = "<group>"; };
+		079255BD1E07067900AA254E /* ChamadaServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChamadaServer.entitlements; sourceTree = "<group>"; };
 		6BAA1E942822ED8AFB85048D /* Pods_ChamadaServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChamadaServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7103761B714280F4E4CC4328 /* Pods-ChamadaServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChamadaServerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChamadaServerTests/Pods-ChamadaServerTests.release.xcconfig"; sourceTree = "<group>"; };
 		85C02D84DF6BFD504461E01E /* Pods-ChamadaServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChamadaServerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChamadaServerTests/Pods-ChamadaServerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074F52991E07026F0017B6AC /* PushKit.framework in Frameworks */,
 				58F79A6119F46707D49FD744 /* Pods_ChamadaServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,8 +124,11 @@
 		070FC5BD1DE9F1DB008BDF3A /* ChamadaServer */ = {
 			isa = PBXGroup;
 			children = (
+				079255BD1E07067900AA254E /* ChamadaServer.entitlements */,
 				070FC5BE1DE9F1DB008BDF3A /* AppDelegate.swift */,
 				070FC5C01DE9F1DB008BDF3A /* ViewController.swift */,
+				07782BEF1DEDBA2900256B78 /* Business */,
+				078A8CC51DE9F2760021D81D /* Mechanisms */,
 				070FC5C21DE9F1DB008BDF3A /* Main.storyboard */,
 				070FC5C81DE9F1DB008BDF3A /* Assets.xcassets */,
 				070FC5CA1DE9F1DB008BDF3A /* LaunchScreen.storyboard */,
@@ -145,9 +156,26 @@
 			path = ChamadaServerUITests;
 			sourceTree = "<group>";
 		};
+		07782BEF1DEDBA2900256B78 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				07782BF01DEDBA3900256B78 /* TCPBO.swift */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		078A8CC51DE9F2760021D81D /* Mechanisms */ = {
+			isa = PBXGroup;
+			children = (
+				078A8CC61DE9F28E0021D81D /* TCPMechanism.swift */,
+			);
+			name = Mechanisms;
+			sourceTree = "<group>";
+		};
 		402E2A2E7D8468F04386D982 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				074F52981E07026F0017B6AC /* PushKit.framework */,
 				B712C7ABF0E03F76CF574FC8 /* Pods_ChamadaServer.framework */,
 				6BAA1E942822ED8AFB85048D /* Pods_ChamadaServerTests.framework */,
 				8CDC16A2C0D1FD04394220A4 /* Pods_ChamadaServerUITests.framework */,
@@ -240,12 +268,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Cadu;
 				TargetAttributes = {
 					070FC5BA1DE9F1DA008BDF3A = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WUMTT3EPGZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					070FC5D11DE9F1DB008BDF3A = {
 						CreatedOnToolsVersion = 8.0;
@@ -450,6 +487,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				070FC5C71DE9F1DB008BDF3A /* ChamadaServer.xcdatamodeld in Sources */,
+				07782BF11DEDBA3900256B78 /* TCPBO.swift in Sources */,
+				078A8CC71DE9F28E0021D81D /* TCPMechanism.swift in Sources */,
 				070FC5C11DE9F1DB008BDF3A /* ViewController.swift in Sources */,
 				070FC5BF1DE9F1DB008BDF3A /* AppDelegate.swift in Sources */,
 			);
@@ -524,9 +563,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -573,9 +614,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -602,6 +645,9 @@
 			baseConfigurationReference = C822097A28B2521D537804AE /* Pods-ChamadaServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChamadaServer/ChamadaServer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WUMTT3EPGZ;
 				INFOPLIST_FILE = ChamadaServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.cadumillani.ChamadaServer;
@@ -615,6 +661,9 @@
 			baseConfigurationReference = ABD8FA8BDF27A7FAFA2C88FD /* Pods-ChamadaServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChamadaServer/ChamadaServer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WUMTT3EPGZ;
 				INFOPLIST_FILE = ChamadaServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.cadumillani.ChamadaServer;
@@ -700,6 +749,7 @@
 				070FC5E81DE9F1DB008BDF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		070FC5E91DE9F1DB008BDF3A /* Build configuration list for PBXNativeTarget "ChamadaServerTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +758,7 @@
 				070FC5EB1DE9F1DB008BDF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		070FC5EC1DE9F1DB008BDF3A /* Build configuration list for PBXNativeTarget "ChamadaServerUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +767,7 @@
 				070FC5EE1DE9F1DB008BDF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
