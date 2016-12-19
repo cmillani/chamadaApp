@@ -17,6 +17,9 @@
 		070FC5E21DE9F1DB008BDF3A /* ChamadaServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FC5E11DE9F1DB008BDF3A /* ChamadaServerUITests.swift */; };
 		074F52991E07026F0017B6AC /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074F52981E07026F0017B6AC /* PushKit.framework */; };
 		07782BF11DEDBA3900256B78 /* TCPBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07782BF01DEDBA3900256B78 /* TCPBO.swift */; };
+		077E53AB1E071A6E00553777 /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077E53AA1E071A6E00553777 /* RestAPIManager.swift */; };
+		077E53AD1E071B5400553777 /* DeviceBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077E53AC1E071B5400553777 /* DeviceBO.swift */; };
+		077E53AF1E0725F900553777 /* DeviceMechanism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077E53AE1E0725F900553777 /* DeviceMechanism.swift */; };
 		078A8CC71DE9F28E0021D81D /* TCPMechanism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A8CC61DE9F28E0021D81D /* TCPMechanism.swift */; };
 		58F79A6119F46707D49FD744 /* Pods_ChamadaServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7ABF0E03F76CF574FC8 /* Pods_ChamadaServer.framework */; };
 		87E3517A2268BCF0B0B27917 /* Pods_ChamadaServerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDC16A2C0D1FD04394220A4 /* Pods_ChamadaServerUITests.framework */; };
@@ -57,6 +60,9 @@
 		070FC5E31DE9F1DB008BDF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		074F52981E07026F0017B6AC /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		07782BF01DEDBA3900256B78 /* TCPBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPBO.swift; sourceTree = "<group>"; };
+		077E53AA1E071A6E00553777 /* RestAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
+		077E53AC1E071B5400553777 /* DeviceBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceBO.swift; sourceTree = "<group>"; };
+		077E53AE1E0725F900553777 /* DeviceMechanism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceMechanism.swift; sourceTree = "<group>"; };
 		078A8CC61DE9F28E0021D81D /* TCPMechanism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPMechanism.swift; sourceTree = "<group>"; };
 		079255BD1E07067900AA254E /* ChamadaServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChamadaServer.entitlements; sourceTree = "<group>"; };
 		6BAA1E942822ED8AFB85048D /* Pods_ChamadaServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChamadaServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				07782BF01DEDBA3900256B78 /* TCPBO.swift */,
+				077E53AC1E071B5400553777 /* DeviceBO.swift */,
 			);
 			name = Business;
 			sourceTree = "<group>";
@@ -168,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				078A8CC61DE9F28E0021D81D /* TCPMechanism.swift */,
+				077E53AA1E071A6E00553777 /* RestAPIManager.swift */,
+				077E53AE1E0725F900553777 /* DeviceMechanism.swift */,
 			);
 			name = Mechanisms;
 			sourceTree = "<group>";
@@ -490,6 +499,9 @@
 				07782BF11DEDBA3900256B78 /* TCPBO.swift in Sources */,
 				078A8CC71DE9F28E0021D81D /* TCPMechanism.swift in Sources */,
 				070FC5C11DE9F1DB008BDF3A /* ViewController.swift in Sources */,
+				077E53AD1E071B5400553777 /* DeviceBO.swift in Sources */,
+				077E53AF1E0725F900553777 /* DeviceMechanism.swift in Sources */,
+				077E53AB1E071A6E00553777 /* RestAPIManager.swift in Sources */,
 				070FC5BF1DE9F1DB008BDF3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

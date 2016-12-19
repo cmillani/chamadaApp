@@ -2,13 +2,25 @@ PODS:
   - CocoaAsyncSocket (7.5.0):
     - CocoaAsyncSocket/GCD (= 7.5.0)
   - CocoaAsyncSocket/GCD (7.5.0)
+  - SwiftyJSON (3.1.3)
 
 DEPENDENCIES:
   - CocoaAsyncSocket
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 969ad4bba054cd89dc648d6399d7766978178865
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  SwiftyJSON: b37a26c0a27587f13e8f223e0280e69c3be5d1d4
 
-PODFILE CHECKSUM: 6e56adba49e6e36834b3d47da8789926de7e4890
+PODFILE CHECKSUM: fb7588650a396e69fbe8ecc33523188a211c9613
 
 COCOAPODS: 1.1.1
